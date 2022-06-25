@@ -20,7 +20,15 @@ p{
     text-align: justify;
 }
 
-.career{
+.songsampler > p{
+    color: black;
+}
+
+.hopesandreams > p{
+    color: black;
+}
+
+.career > p{
     color: black;
     text-align: center;
 }
