@@ -1,23 +1,47 @@
 body {
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
 }
 
-h2 {
-    color: gold;
+header{
+    color: white;
     text-align: center;
     font-weight: bold;
     background-image: url("backgroundimage.webp");
-    
+    text-transform: uppercase;
 }
 
 h3{
-    color: green
+    color: white;
+    background-color: black;
+    padding: 8px;
+    text-align: center;
 }
 
 p{
     color: green;
     text-align: justify;
+}
+
+
+td{
+    padding: 20px;
+}
+
+table{
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.nav{
+    color: white;
+    font-size: 18px;
+    background-color: black;
+}
+
+.aboutDave > p{
+    color: black;
 }
 
 .songsampler > p{
@@ -26,6 +50,12 @@ p{
 
 .hopesandreams > p{
     color: black;
+    background-color: white;
+}
+
+.songsampler > p{
+    color: black;
+    background-color: white;
 }
 
 .career > p{
@@ -46,24 +76,22 @@ p{
     text-align: center;
 }
 
-a:hover {
-    background-color: palegreen;
-    color: red;
+#music{
+    background-color: white;
+    color: green;
 }
 
-ul.nav {
-    padding-left: 0px;
-    background-color: #3D99CE;
-    text-align: center;
-  }
-  ul.nav > li {
-    display: inline-block;
-    padding: 10px 20px;
-  }
-  ul.nav > li:hover {
-    background-color: #2779BF;
-  }
-  ul.nav > li > a {
+#camping{
     color: white;
-    text-decoration: none;
-  }
+}
+
+p{
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+
+a:hover {
+    background-color: blue;
+    color: slateblue;
+}
