@@ -38,7 +38,28 @@ table{
     color: white;
     font-size: 18px;
     background-color: black;
+    text-align: center;
+    padding: 20px 0px;
+    position: relative;
+    width: 100%;
 }
+
+.nav a{
+ display: inline;
+ border: 1px solid ghostwhite;
+ border-radius: 1px;
+ text-decoration: wavy; 
+ padding: 15px;
+ background-color: rgb(255, 92, 32);
+ color: white;
+ margin: 10px;
+}
+
+a:hover {
+    background-color: blue;
+    color: slateblue;
+}
+
 
 .aboutDave > p{
     color: black;
@@ -61,19 +82,23 @@ table{
 .career > p{
     color: black;
     text-align: center;
+    border: solid orangered 2px;
 }
 
 .education {
     color: black;
+    border: solid orangered 2px;
 }
 
 .employment {
     color: black;
+    border: 2px orangered solid;
 }
 
 .contact {
     color: orange;
     text-align: center;
+    padding: 20px;
 }
 
 #music{
@@ -91,7 +116,45 @@ p{
     padding: 15px;
 }
 
-a:hover {
-    background-color: blue;
-    color: slateblue;
+#kenzielogo img{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    display: inline;
+}
+
+#ivytech img{
+    height: 100px;
+    position: relative;
+    display: inline;
+    padding-left: 50px;
+}
+
+#iupui img{
+    height: 100px;
+    position: relative;
+    display: inline;
+    padding-left: 50px; 
+}
+
+footer{
+    border: solid orangered 2px;
+}
+
+.contact a{
+    color: lightgreen;
+    background-color: black;
+}
+
+.contact a:hover{
+    color: blueviolet;
+    background-color: greenyellow;
+}
+
+.contact h4{
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-decoration: overline underline;
+    
 }
