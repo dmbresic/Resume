@@ -141,6 +141,10 @@ footer{
     border: solid orangered 2px;
 }
 
+.contact{
+    background-color: aqua;
+}
+
 .contact a{
     color: lightgreen;
     background-color: black;
@@ -149,6 +153,7 @@ footer{
 .contact a:hover{
     color: blueviolet;
     background-color: greenyellow;
+    background-color: aqua;
 }
 
 .contact h4{
@@ -156,4 +161,9 @@ footer{
     text-align: center;
     color: black;
     text-decoration: overline underline;
+}
+
+.contact p{
+    text-align: center;
+    background-color: aqua;
 }
